@@ -1,0 +1,37 @@
+.View{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+}
+.Transimages{
+    position: relative;
+    width: 95vw;
+    max-width: 85vw;
+    height: 500px;
+    align-items: center;
+    
+
+}
+.View img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    position: absolute;
+    opacity:0 ;
+    transition: opacity 1000ms;
+
+}
+.Title{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+
+}
+.Transimages .Select{
+    opacity: 1;
+}

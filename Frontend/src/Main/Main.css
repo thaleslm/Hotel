@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700;900&display=swap');
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff9f;
+  }
+  Body, html{
+   
+  
+    background-image: linear-gradient(  #030307,#151416,#23232cd5);
+    position: absolute;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+  
+  }
+  .Main{
+  
+    display: grid;
+    
+   
+    grid-template-areas:    
+    'menu'
+    'view'
+    'footer';
+  }
+  
+  .Menu{
+  
+    
+    grid-area: menu;
+    height: 190px;
+    
+    
+  }
+  .View{
+    grid-area: view;
+    height: 660px;
+    width: 100vw;
+    
+  }
+  .Footer{
+    grid-area: footer;
+    height: 85px;
+    
+  }
+  
