@@ -4,12 +4,15 @@ import './Register.css'
 function Register(){
     return (
         <div className="Register">
-            <h2>Cadastro</h2>
+            <h2>Registro de vaga</h2>
 
-            <form className="FormRegister" action="http://Localhost/3003" method="POST">
-                Email:<input type="text" name="email"/>
+            <form className="FormRegister" action="http://Localhost:8080/Register" method="POST">
+                name:<input type="text" name="name"></input>
+                Email:<input type="email" name="email"></input>
                 Senha:<input type="password" name="password"></input>
-                Repita senha:<input type="password" name="password"></input>
+                Data:<input  type="date" name="data"></input>
+
+                
 
                 <button type="submit">Registro</button>
                 

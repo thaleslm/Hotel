@@ -7,7 +7,7 @@ function Register(){
         <div >
             
         <Link to="/Register">
-            <button className="Bmenu"> Register</button>
+            <button className="Bmenu"> Reservar hotel</button>
         </Link>
             
      

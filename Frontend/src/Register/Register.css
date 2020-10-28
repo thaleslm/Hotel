@@ -1,6 +1,6 @@
 
 .Register{
-    background-image: linear-gradient( #2c2814, #d3cbb8);
+    background-color: black;
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -13,6 +13,14 @@
     flex-direction: column;
     width: 15vw;
     margin-top: 10px;
+    padding: 60px;
+    border:1px solid white;
+    border-radius: 10px;
+    background-color: #0000ff2a;
+    transition: background-color 500ms ;
+}
+.FormRegister:hover{
+    background-color: #0b0bf1e7;
 }
 .FormRegister button{
     margin-top: 20px;
@@ -24,16 +32,18 @@
     align-self: center;
     text-align: center;
 
-    background-color: #7b7b8085;
+    background-color: #ffff;
+    color: black;
     transition: background-color 500ms ;
 }
 .FormRegister button:hover{
-    background-color: #505052a8;    
-    color: black(9, 45, 70);
+    background-color: #0000eb00;    
+    color: white;
     border:0;  
 }
 .FormRegister input{
-    background-color: #978c8c;
+    background-color: #ffff;
     border: 0;
     height: 25px;
+    color: black;
 }

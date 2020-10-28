@@ -2,12 +2,12 @@
     margin: 0px;
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700;900&display=swap');
     font-family: 'Roboto Slab', serif;
-    color: #ffffff9f;
+    color: #ffff;
   }
   Body, html{
    
   
-    background-image: linear-gradient(  #030307,#151416,#23232cd5);
+    background-color: black;
     position: absolute;
     margin: 0px;
     height: 100%;
